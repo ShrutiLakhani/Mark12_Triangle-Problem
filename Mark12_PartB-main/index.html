@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Triangle Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Triangle Quiz</h1>
+    <form class="quiz-form">
+      <div>
+        <p>Question1: What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+      <label><input type="radio" name="question1" value="45°"/>45°</label> 
+      <label><input type="radio" name="question1" value="90°"/>90°</label>
+      <label><input type="radio" name="question1" value="60°"/>60°</label>
+      </div>
+      <div>
+        <p>Question2: If a triangle has an angle of 90 degrees, what is it called?</p>
+      <label><input type="radio" name="question2" value="acute"/>acute</label> 
+      <label><input type="radio" name="question2" value="obtuse"/>obtuse</label>
+      <label><input type="radio" name="question2" value="right-angled"/>right-angled</label>
+    </div>
+    <div>
+    <p>Question3: The triangle can be classified on the basis of?</p>
+      <label><input type="radio" name="question3" value="the no. of equal sides"/>the no. of equal sides</label> 
+      <label><input type="radio" name="question3" value="the types of angles"/>the types of angles</label>
+      <label><input type="radio" name="question3" value="length of line segments"/>length of line segments</label>
+       <label><input type="radio" name="question3" value="both a and b"/>both a and b</label>
+    </div>
+
+    <p>
+    <button id="submit-answer">Submit Answers</button>
+    </p>
+    </form>
+    <div id="output"></div>
+   <script src="script.js"></script>
+  </body>
+</html>
