@@ -1,5 +1,36 @@
+.quiz-form>div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+}
+body
+{
+  background-color: beige;
+}
+
+h1
+{
+  text-align: center;
+}
+.btn-style{
+text-align: center;
+}
 #submit-answer
 {
-  margin:auto;
-  width:150px;
+  margin: auto;
+  margin-top: 1rem;
+  padding: .5rem 1.5rem;
+  border-radius: .3rem;
+  font-size: larger;
+}
+#output
+{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
 }

@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area of Triangle</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <a class="style-class" href="../Mark12a_CalcSumOfTriangle-main/index.html">Is it a Triangle?</a>
+        <a class="style-class" href="../Mark12_PartB-main/index.html">Quiz Time</a>
+        <a class="style-class" href="../Mark12_PartC-main/index.html">Calculate the Hypotenuse</a>
+        <a class="style-class" href="../Mark12_PartD/index.html">Area of Triangle</a>
+        </nav>
+    
     <h1 class="heading">Area of Triangle</h1>
-    <div>
+    <div class="outer-div">
+    <div class="inner-div">
     <label for ="Base">Base</label>
-    <input type="number" placeholder="Enter the base" class ="base-inp" />
+    <input class="style-inp base-inp" type="number" placeholder="Enter the base"/>
     <label for="Height" >Height</label>
-    <input type="number" placeholder="Enter the height" class ="height-inp" />
+    <input class="style-inp height-inp" type="number" placeholder="Enter the height"/>
     <button id="btn">Calculate Area</button>
 
     </div>
-    <div id="output-val">
-    
-    </div>
+    <div id="output-val"></div>
+    </div>    
+
 </body>
 <script src="./script.js"></script>
 </html>
